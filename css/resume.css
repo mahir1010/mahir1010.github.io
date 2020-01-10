@@ -176,3 +176,35 @@ a {
 a:hover, a:focus, a:active {
   color: #197949;
 }
+.project-info{
+  width:50%;
+}
+
+section.project-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+section.project-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.project-section {
+    min-height: 100vh;
+  }
+  section.project-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.project-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+.smaller{
+  font-size: 50%;
+font-weight: 400;
+}
