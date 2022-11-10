@@ -83,6 +83,15 @@ p.lead {
   color: #159957;
 }
 
+.dev-icons .list-inline-item{
+  cursor: default;
+}
+
+.list-inline-item:hover{
+  cursor: default;
+  color: #159957;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
