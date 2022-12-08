@@ -14,6 +14,7 @@ body {
   body {
     padding-top: 0;
     padding-left: 17rem;
+    
   }
 }
 
@@ -46,7 +47,9 @@ p.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
-
+.text-primary-dark{
+  color: #0a542f !important;
+}
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -216,4 +219,22 @@ section.project-section .resume-item .resume-date {
 .smaller{
   font-size: 50%;
 font-weight: 400;
+}
+.responsive_flex{
+  display: flex;
+  flex-direction: row;
+}
+@media (orientation:portrait) {
+  .responsive_flex {
+    flex-direction: column-reverse;
+  }
+}
+.text-journal{
+  color: #158b65 !important;
+}
+.text-conference{
+  color: #157878 !important;
+}
+.text-thesis{
+  color: #156888 !important;
 }
